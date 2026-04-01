@@ -1,0 +1,49 @@
+{
+    "certifies":[
+        {
+            "id":"1",
+            "nombre": "JavaScript Moderno",
+            "tipo":"B",
+            "entidad":"Udemy",
+            "certUrl":"https://ude.my/UC-09284295-7bf6-4a2b-a6e7-4ad969663fe4",
+            "siteUrl":"https://www.udemy.com/",
+            "archivo":"UC-09284295-7bf6-4a2b-a6e7-4ad969663fe4.jpg"
+        },
+        {
+            "id":"2",
+            "nombre":"JavaScript",
+            "tipo":"B",
+            "entidad":"IES 21 - Centro de Capacitacion continua",
+            "certUrl":"",
+            "siteUrl":"https://ccc.ies21.edu.ar/",
+            "archivo":"Centro de Capacitacion Continua - JavaScript .jpg"
+        },
+        {   
+            "id":"3",
+            "nombre":"PL/SQL",
+            "tipo":"B",
+            "entidad":"IES 21 - Centro de Capacitacion continua",
+            "certUrl":"",
+            "siteUrl":"https://ccc.ies21.edu.ar/",
+            "archivo":"Centro de Capacitacion Continua - PL SQL.jpg"
+        },
+        {
+            "id":"4",
+            "nombre":"C# Fundamentals for Absolute Beginners",
+            "tipo":"B",
+            "entidad":"Microsoft Virtual Academy",
+            "certUrl":"",
+            "siteUrl":"https://ccc.ies21.edu.ar/",
+            "archivo":"Microsoft - CSharp Fundamentals.jpg"
+        },
+        {
+            "id":"5",
+            "nombre":"Analista de sistemas de Computacion",
+            "tipo":"A",
+            "entidad":"IES 21 - Colegio Universitario",
+            "certUrl":"",
+            "siteUrl":"https://refe.educacion.gob.ar/busqueda",
+            "archivo":"Analista de sistemas de Computacion.pdf"
+        }
+    ]
+}
