@@ -15,26 +15,14 @@ dotenv.config();
 
 const PORT = process.env.PORT || 4000
 
-var whitelist = [process.env.FRONTEND,process.env.BACKEND]
-var corsOptions = {
-    origin: function (origin, callback) {
-        if (!origin || whitelist.indexOf(origin) !== -1) {
-            callback(null, true)
-        } else {
-            callback(new Error('Not allowed by CORS'))
-        }
-    }
+const allowedOrigin = process.env.FRONTEND || '*'
+const corsOptions = {
+  origin: allowedOrigin,
+  credentials: true,
+  optionsSuccessStatus: 200
 }
 
 app.use(cors(corsOptions))
-app.use(cors());
-app.use((req, res, next) => {
-  res.header("Access-Control-Allow-Origin", "*");
-  res.header("Access-Control-Allow-Headers", "*");
-  res.header("Access-Control-Allow-Methods", "*");
-  next();
-});
-
 app.use(express.json())
 
 
