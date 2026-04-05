@@ -16,7 +16,9 @@ dotenv.config();
 const PORT = process.env.PORT || 4000
 
 app.use(cors({
-  origin:process.env.FRONT_END
+    origin: "https://davidneriportfolio.netlify.app",
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    credentials: true
 }));
 app.use(express.json())
 
