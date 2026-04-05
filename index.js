@@ -15,14 +15,20 @@ dotenv.config();
 
 const PORT = process.env.PORT || 4000
 
-app.use(cors({
-    origin: "https://davidneriportfolio.netlify.app",
-    methods: ["GET", "POST", "PUT", "DELETE"],
-    credentials: true
-}));
+var whitelist = [process.env.FRONTEND,process.env.BACKEND]
+var corsOptions = {
+    origin: function (origin, callback) {
+        if (!origin || whitelist.indexOf(origin) !== -1) {
+            callback(null, true)
+        } else {
+            callback(new Error('Not allowed by CORS'))
+        }
+    }
+}
 
-app.options("*", cors());
+app.use(cors(corsOptions))
 app.use(express.json())
+
 
 app.get("/", (req, res) => {
   res.send("API funcionando 🚀");
