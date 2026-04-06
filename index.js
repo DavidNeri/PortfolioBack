@@ -15,9 +15,19 @@ dotenv.config();
 
 const PORT = process.env.PORT || 4000
 
-const allowedOrigin = process.env.FRONTEND || '*'
+const allowedOrigin = process.env.FRONTEND ? process.env.FRONTEND.replace(/\/$/, '') : '*'
 const corsOptions = {
-  origin: allowedOrigin,
+  origin: function (origin, callback) {
+    if (!origin) return callback(null, true)
+    if (allowedOrigin === '*') return callback(null, true)
+
+    const normalizedOrigin = origin.replace(/\/$/, '')
+    if (normalizedOrigin === allowedOrigin) {
+      return callback(null, true)
+    }
+
+    callback(new Error('Not allowed by CORS'))
+  },
   credentials: true,
   optionsSuccessStatus: 200
 }
