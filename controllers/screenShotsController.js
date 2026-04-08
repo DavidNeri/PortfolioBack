@@ -6,15 +6,7 @@ import sharp from "sharp";
 
 const obtenerScreenshots = async (req, res) => {
     const { url } = req.body;
-    /*const browser = await puppeteer.launch({
-        headless: true,
-        executablePath: puppeteer.executablePath(),
-        args:[
-            '--no-sandbox',
-            '--disable-setuid-sandbox'        
-        ]
-    });
-    
+    const browser = await puppeteer.launch();   
     
     const page = await browser.newPage();
 
@@ -39,8 +31,8 @@ const obtenerScreenshots = async (req, res) => {
 
     await browser.close();
 
-    res.set("Content-Type", "image/jpeg");*/
-    res.send(url);
+    res.set("Content-Type", "image/jpeg");
+    res.send(resized);
 }
 
 
