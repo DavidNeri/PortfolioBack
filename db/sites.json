@@ -4,57 +4,68 @@
         {
             "id":1,
             "url":"https://10-apv-fullstack-mern.netlify.app/",
-            "info":"Administrador de Pacientes de Veterinaria FullStack MERN - MongoDB Express React & Node"
+            "info":"Administrador de Pacientes de Veterinaria FullStack MERN - MongoDB Express React & Node",
+            "bg__image":"mern"
         },
         {
             "id":2,
             "url":"https://11-apv-ts.netlify.app/",
-            "info":"Administrador de Pacientes de Veterinaria con TypeScript"
+            "info":"Administrador de Pacientes de Veterinaria con TypeScript",
+            "bg__image":"ts"
         },        
         {
             "id":3,
             "url":"https://08cotizador-prestamos.netlify.app/",
-            "info":"Cotizador de Prestamos - JavaScript"
+            "info":"Cotizador de Prestamos - JavaScript",
+            "bg__image":"js"
         },
         {
             "id":4,
             "url":"https://09-cotizador-prestamos-vue.netlify.app/",
-            "info":"Cotizador de Prestamos con - VUE"
+            "info":"Cotizador de Prestamos con - VUE",
+            "bg__image":"vue"
         },    
         {
             "id":5,
             "url":"https://07cotizadorcripto.netlify.app/",
-            "info":"Cotizador de Criptomonedas - javaScript"
+            "info":"Cotizador de Criptomonedas - javaScript",
+            "bg__image":"js"
         },
         {
             "id":6,
             "url":"https://06buscadorimagenes.netlify.app/",
-            "info":"Buscados de Imágenes con Pixabay"
+            "info":"Buscados de Imágenes con Pixabay",
+            "bg__image":"js"
         },
         {
             "id":7,
             "url":"https://04clima.netlify.app/",
-            "info":"Obtener el clima de tu ciudad - JavaScript"
+            "info":"Obtener el clima de tu ciudad - JavaScript",
+            "bg__image":"js"
         },
         {
             "id":8,
             "url":"https://03crmindexeddb.netlify.app/",
-            "info":"CRM con IndexedDB"
+            "info":"CRM con IndexedDB",
+            "bg__image":"js_indexed_db"
         },
         {
             "id":9,
             "url":"https://02admincitasindexdb.netlify.app/",
-            "info":"Adminsitrador de Pacientes de Veterinaria con IndezedDB"
+            "info":"Adminsitrador de Pacientes de Veterinaria con IndexedDB",
+            "bg__image":"js_indexed_db"
         },
         {
             "id":10,
             "url":"https://01carritocomprasjs.netlify.app/",
-            "info":"Carrito de compras - JavaScript"
+            "info":"Carrito de compras - JavaScript",
+            "bg__image":"js"
         },
         {
             "id":11,
             "url":"https://aponusweb.onrender.com/Aponus/Endpoints/Get",
-            "info":"Listado EndPoints Backend 'Sistema Aponus' - Entity Framework Core C#"
+            "info":"Listado EndPoints Backend 'Sistema Aponus' - Entity Framework Core C#",
+            "bg__image":"net_core_react"
         }
         
     ]

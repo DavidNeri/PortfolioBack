@@ -42,6 +42,7 @@ const obtenerInfoSites = async (req,res) =>{
 
     const filePath = path.join(__dirname, "../db/sites.json");
     const data = JSON.parse(fs.readFileSync(filePath,"utf-8"));
+    console.log(data);
     res.json(data)
 
 }
