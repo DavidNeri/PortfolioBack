@@ -66,7 +66,63 @@
             "url":"https://aponusweb.onrender.com/Aponus/Endpoints/Get",
             "info":"Listado EndPoints Backend 'Sistema Aponus' - Entity Framework Core C#",
             "bg__image":"net_core_react"
+        },
+        {
+            "id":12,
+            "url":"https://effecto-parallax.netlify.app/",
+            "info":"Efecto Parallax usando el Scrolling",
+            "bg__image":"parallax"
+        },
+        {
+            "id":13,
+            "url":"https://meek-narwhal-1f6152.netlify.app/",
+            "info":"Formulario animado",
+            "bg__image":"css"
+        },
+        {
+            "id":14,
+            "url":"https://galleria-lightbox.netlify.app/",
+            "info":"Galleria de imágenes con efecto lightbox",
+            "bg__image":"css"
+        },
+        {
+            "id":15,
+            "url":"https://landing-page-animada.netlify.app/",
+            "info":"Landing Page Animada con CSS",
+            "bg__image":"css"
+        },
+        {
+            "id":16,
+            "url":"https://menu-animado-red.netlify.app/",
+            "info":"Menu Animado",
+            "bg__image":"css"
+        },
+        {
+            "id":17,
+            "url":"https://modal-animado-spidy.netlify.app/",
+            "info":"Modal Animado",
+            "bg__image":"css"
+        },
+        {
+            "id":18,
+            "url":"https://front-end-mentor-reto-uno.netlify.app/",
+            "info":"1er Challenge del sitio frontendmentor.io - Diseño First mobile",
+            "bg__image":"frontend_mentor"
+        },
+        {
+            "id":19,
+            "url":"https://front-end-mentor-reto-dos.netlify.app/",
+            "info":"2do Challenge del sitio frontendmentor.io - Diseño First mobile",
+            "bg__image":"frontend_mentor"
+        },
+        {
+            "id":20,
+            "url":"https://front-end-metor-reto-tres.netlify.app/",
+            "info":"3er Challenge del sitio frontendmentor.io - Diseño First mobile",
+            "bg__image":"frontend_mentor"
         }
+   
+        
         
     ]
     
