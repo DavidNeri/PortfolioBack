@@ -45,5 +45,14 @@
             "siteUrl":"https://refe.educacion.gob.ar/busqueda",
             "archivo":"Analista de sistemas de Computacion.pdf"
         }
+         {
+            "id":"6",
+            "nombre": "Master en CSS 2026",
+            "tipo":"B",
+            "entidad":"Udemy",
+            "certUrl":"https://ude.my/UC-98101d27-8449-49ec-80ec-1a7ffa2eb7cc",
+            "siteUrl":"https://www.udemy.com/",
+            "archivo":"UC-98101d27-8449-49ec-80ec-1a7ffa2eb7cc.jpg"
+        },
     ]
 }
